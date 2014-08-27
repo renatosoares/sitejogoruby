@@ -51,7 +51,7 @@
 /* fim reset css ------------------------------------------- */
 /*
 =========================================================================
-+++++++++++++++++++++++++++++++++++++ajustes css+++++++++++++++++++++++++
+++++++++++++++++++++++++++ajustes personalizados+++++++++++++++++++++++++
 =========================================================================
 */
 /* inicio geral ========================================= */
@@ -64,23 +64,41 @@ body{
 header {
 	background-color: #eee;
 	height: 120px;
+	margin-bottom: 150px;
 }
 header div {
-	width: 800px;
+	width: 1000px;
 	margin: 0 auto;
+	b ackground-color: red;
 
 }
 header div h1{
 	font-size: 2em;
+	padding-top: 10px;
 }
 header div ol {
-	margin: auto 50px;
+	margin: auto 5%;
+	margin-top: -10px;
 }
 header div ol li{
+	text-align: center;
 	display: inline-block;
-	width: 100px;
-	height: 150px;
+	margin: 35px;
 	background-color: #FFC000;
+	padding-top: 30px;
+}
+header div ol li a {
+	color:#fff;
+	text-decoration: none;
+	display: block;
+	width: 150px;
+	height: 90px;
+}
+header div ol li a:hover {
+	color:#000;
+	text-decoration: none;
+	border-bottom: #FFE100 7px solid;
+	height: 83px;
 }
 
 /* fim cabeçalho ------------------------------------------- */
