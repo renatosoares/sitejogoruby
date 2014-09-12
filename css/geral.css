@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+}
+container#div{
+	position: relative;
+
+
+}
+header {
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	background-image: url("../imagens/user_gamer.png");
+	background-repeat: no-repeat;
+	background-color: blue;
+}
+header h1 {
+	font-size: 50px;
+	font-weight: lighter;
+	margin-top: 50px;
+	position: absolute;
+	left: 975px;
+	color:#ffcc00;
+}
