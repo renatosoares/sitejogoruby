@@ -1,28 +1,171 @@
-* {
-	margin: 0;
-	padding: 0;
+/**
+* Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+* http://cssreset.com
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
 body{
 	font-family: sans-serif;
 }
-container#div{
-	position: relative;
+/*============fim do reset css =========*/
+
+/*===============++++++++++=============*/
+/*===============++++++++++=============*/
 
 
-}
+/*=========== inicio do cabeçalho ===========*/
+
+
+
+
 header {
+	/*position: relative;*/
 	width: 1000px;
 	height: 500px;
 	margin: 0 auto;
-	background-image: url("../imagens/user_gamer.png");
+	/*background-image: url("../imagens/barra_azuis.png");*/
+/*	background-image: url("../imagens/user_gamer.png");*/
+	background-image: url("../imagens/fundo_completo2.png");
 	background-repeat: no-repeat;
-	background-color: blue;
+	background-color: #fff;
 }
 header h1 {
 	font-size: 50px;
 	font-weight: lighter;
 	margin-top: 50px;
-	position: absolute;
-	left: 975px;
+	float: right;
+	margin-right: 50px;
+	/*position: absolute;*/
+	left: 515px;
 	color:#ffcc00;
 }
+
+/*=========== fim do cabeçalho ===========*/
+
+
+/*=========== inicio do corpo ===========*/
+div#container{
+	
+	background-color: #13445D;
+}
+article {
+	width: 1000px;
+	height: 300px;
+	/*background-color: aqua;*/
+	margin: 0 auto;
+	background-color: #fff;
+}
+article nav{
+
+}
+article nav ul {
+
+	
+}
+article nav ul li {
+	display: inline-block;
+	margin-left: 15px;
+	width: 140px;
+	height: 205px;
+	background-color: #ece1c1;
+	text-align: center;
+	vertical-align: text-bottom;
+
+}
+article nav ul li:nth-child(1) {
+	background-image: url("../imagens/mergulha01.png");
+	background-repeat: no-repeat;
+	background-position: 50% 35%;
+	margin-left: 30px;
+}
+article nav ul li:nth-child(2) {
+	background-image: url("../imagens/mergulha02.png");
+	background-repeat: no-repeat;
+	background-position: 50% 35%;
+}
+article nav ul li:nth-child(3) {
+	background-image: url("../imagens/mergulha03.png");
+	background-repeat: no-repeat;
+	background-position: 50% 35%;
+}
+article nav ul li:nth-child(4) {
+	background-image: url("../imagens/mergulha02.png");
+	background-repeat: no-repeat;
+	background-position: 50% 35%;
+}
+article nav ul li:nth-child(5) {
+	background-image: url("../imagens/mergulha01.png");
+	background-repeat: no-repeat;
+	background-position: 50% 35%;
+}
+article nav ul li:nth-child(6) {
+	background-image: url("../imagens/mergulha03.png");
+	background-repeat: no-repeat;
+	background-position: 50% 35%;
+}
+article nav ul li a {
+	font-size: 1.2em;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	height: 30px;
+	background-color: #ffcc00;
+	margin-top: 175px;
+	vertical-align: text-bottom;
+	line-height: 30px;
+
+}
+ 	
+
+
+/*=========== fim do corpo ==============*/
+
+
+/*=========== inicio do rodapé ===========*/
+footer{
+	height: 100px;
+	background-color: silver;
+}
+/*=========== fim do rodapé ==============*/
