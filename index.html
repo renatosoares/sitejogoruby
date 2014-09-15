@@ -6,6 +6,30 @@
     <meta content="site sobre o jogo feito em ruby" name="description">
     <meta content="jogo, submarino" name="keywords">
     <link rel="stylesheet" type="text/css" href="css/geral.css">
+    <style type="text/css" src="js/jquery-1.11.1.js"></style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").hover(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+ 
+<style> 
+#panel,#flip
+{
+padding:0px;
+
+
+}
+#panel
+{
+width:140px;
+display:none;
+}
+
+</style>
   </head>
   <body>
     <!-- <div id="container"> -->
@@ -18,7 +42,7 @@
         <!-- <img src="imagens/cartucho.png" alt="cartucho"> -->
         <nav>
           <ul>
-            <li><a href="#"><span>_descrição    </span></a></li>
+            <li id="flip" >&nbsp;<a id="panel" href="#"><span>_descrição    </span></a></li>
             <li><a href="#"><span>_regras       </span></a></li>
             <li><a href="#"><span>_código fonte </span></a></li>
             <li><a href="#"><span>_criadores    </span></a></li>
