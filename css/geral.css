@@ -111,8 +111,8 @@ header nav ul li {
 	background-color: #ece1c1;
 	text-align: center;
 	vertical-align: text-bottom;
-
 }
+
 header nav ul li:nth-child(1) {
 	background-image: url("../imagens/mergulha01.png");
 	background-repeat: no-repeat;
@@ -145,18 +145,33 @@ header nav ul li:nth-child(6) {
 	background-position: 50% 35%;
 }
 header nav ul li a {
-	font-size: 1.2em;
-	color: #fff;
+	height: 205px;
+	width: 140px;
 	display: block;
 	text-decoration: none;
+}
+header nav ul li a:hover {
+	height: 205px;
+	width: 140px;
+	background-image:url("../imagens/tubarao.png");
+	background-color: #ffcc00;
+	background-repeat: no-repeat;
+	background-position: 35px 70px;
+}
+header nav ul li a span{
 	height: 30px;
+	width: 140px;
+	font-size: 1.2em;
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	
 	background-color: #ffcc00;
 	margin-top: 175px;
 	vertical-align: text-bottom;
 	line-height: 30px;
 
 }
-
 /*=========== fim do cabeçalho ===========*/
 
 
