@@ -24,6 +24,39 @@ padding:150px;
 display:none;
 }
 </style>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").hover(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+<script type="text/javascript">
+function escondeSpan() {
+document.getElementById("panel").style.display = "none";
+}
+ 
+function reapareceSpan() {
+document.getElementById("panel").style.display = "block";
+}
+
+</script>
+ 
+<style> 
+#panel,#flip
+{
+padding:0px;
+
+
+}
+#panel
+{
+/*width:140px;*/
+display:none;
+}
+
+</style>
 </head>
 <body>
  

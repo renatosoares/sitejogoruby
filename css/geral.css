@@ -83,10 +83,11 @@ header h1 {
 	/*margin-right: 80px;*/
 	/*position: absolute;*/
 	/*left: 515px;*/
-	color:#ffcc00;
+	
 }
-header h1 img{
-
+header h1 a{
+	text-decoration: none;
+	color:#ffcc00;
 }
 header img[alt] {
 	width: 430px;
@@ -111,6 +112,7 @@ header nav ul li {
 	background-color: #ece1c1;
 	text-align: center;
 	vertical-align: text-bottom;
+
 }
 
 header nav ul li:nth-child(1) {
@@ -151,14 +153,14 @@ header nav ul li a {
 	text-decoration: none;
 }
 header nav ul li a:hover {
-	height: 205px;
-	width: 140px;
+	
 	background-image:url("../imagens/tubarao.png");
 	background-color: #ffcc00;
 	background-repeat: no-repeat;
 	background-position: 35px 70px;
+	
 }
-header nav ul li a span{
+header nav ul li span{
 	height: 30px;
 	width: 140px;
 	font-size: 1.2em;
@@ -172,6 +174,10 @@ header nav ul li a span{
 	line-height: 30px;
 
 }
+/*header nav ul li span:hover{
+	display: none;
+
+}*/
 /*=========== fim do cabeçalho ===========*/
 
 

@@ -1,0 +1,23 @@
+/*=========== inicio do corpo ===========*/
+article.conteudo{
+	height: 600px;
+	padding-top: 185px;
+}
+article div.descricao {
+	margin: 0 auto;
+	width: 850px;
+	height: 500px;
+	padding: 60px;
+	background-color: #fff;
+}
+article div p {
+	font-family: serif;
+	color: #589BA9;
+	line-height: 1.5;
+	text-align: justify;
+}
+article div p span {
+	font-weight: bold;
+}
+
+/*=========== fim do corpo ==============*/
