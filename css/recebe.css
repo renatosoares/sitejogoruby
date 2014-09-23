@@ -1,0 +1,31 @@
+header h1{	
+	margin-bottom: 80px;
+}
+article{
+	margin-top: 5%;
+}
+/*=========== inicio do corpo ===========*/
+article.conteudo{
+	height: 300px;
+	padding-top: 80px;
+	font-family: courier, serif;
+	color:#82B4BF;
+	line-height: 1.5;
+	font-size:19px;	
+	text-align: center;
+}
+article div.descricao {
+	margin: 0 auto;
+	width: 570px;
+	height: 370px;
+	padding: 90px;
+}
+article p{
+	display: block;
+	font-weight: bold;
+	margin: 20px auto;
+	width: 450px;
+	height: 30px;
+	background-color:white;
+	padding: 30px 40px;
+}

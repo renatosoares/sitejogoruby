@@ -1,4 +1,4 @@
-header nav ul li:nth-child(2){	
+header nav ul li:nth-child(5){	
 	background-image:url("../imagens/tubarao.png");
 	background-color: #ffcc00;
 	background-repeat: no-repeat;
@@ -12,8 +12,8 @@ article{
 }
 /*=========== inicio do corpo ===========*/
 article.conteudo{
-	height: 680px;
-	padding-top: 150px;
+	height: 450px;
+	padding-top: 80px;
 	font-family: courier, serif;
 	color:#82B4BF;
 	line-height: 1.5;
@@ -22,26 +22,41 @@ article.conteudo{
 }
 article div.descricao {
 	margin: 0 auto;
-	width: 800px;
-	height: 530px;
-	background-image: url("../imagens/fundo.png");
-	background-size: 100% 100%;
+	width: 690px;
+	height: 370px;
 	padding: 60px;
 }
-article div h2{	
+form{
+	display: block;
+	margin: 20px auto;
+	width: 510px;
+	height: 270px;
+	background-image: url("../imagens/fundo.png");
+	background-size: 100% 100%;
+	margin: 20px;
+	padding: 30px 40px;
+}
+fieldset legend{
 	text-align: center;
-	font-size: 30px;
 	font-weight: bold;
-	padding-bottom: 30px;
 }
-article div h2#segundo{
-	padding-top: 25px;
+fieldset#sugestao{
+	font-weight: bold;
+	margin: 15px 0;
 }
-article div p{
-	text-indent: 40px;
+fieldset#sugestao textarea{
+	height: 50px;
+	width: 500px;
 }
-article div ul li{
-	list-style: inside;
-	list-style-type: square;
+fieldset#botao{
+	float: right;
 }
+fieldset#botao input{
+	border-radius: 10px;
+	padding: 7px;
+	background-color: #41a1b5;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+
 /*=========== fim do corpo ==============*/

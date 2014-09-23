@@ -1,23 +1,46 @@
+header nav ul li:nth-child(1){	
+	background-image:url("../imagens/tubarao.png");
+	background-color: #ffcc00;
+	background-repeat: no-repeat;
+	background-position: 35px 70px;	
+}
+header h1{	
+	margin-bottom: 80px;
+}
+article{
+	margin-top: 5%;
+}
 /*=========== inicio do corpo ===========*/
 article.conteudo{
-	height: 600px;
-	padding-top: 185px;
+	height: 800px;
+	padding-top: 160px;
+	font-family: courier, serif;
+	color:#82B4BF;
+	line-height: 1.5;
+	font-size:17px;	
+	text-align: justify;
 }
 article div.descricao {
 	margin: 0 auto;
-	width: 850px;
-	height: 500px;
+	width: 800px;
+	height: 650px;
+	background-image: url("../imagens/fundo.png");
 	padding: 60px;
-	background-color: #fff;
 }
-article div p {
-	font-family: serif;
-	color: #589BA9;
-	line-height: 1.5;
-	text-align: justify;
-}
-article div p span {
+article div h2{	
+	text-align: center;
+	font-size: 30px;
 	font-weight: bold;
+	padding-bottom: 30px;
 }
-
+article div h2#segundo{
+	padding-top: 25px;
+}
+article div p{
+	text-indent: 40px;
+}
+article div ul li{
+	list-style: inside;
+	list-style-type: square;
+}
 /*=========== fim do corpo ==============*/

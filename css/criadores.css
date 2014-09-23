@@ -1,4 +1,4 @@
-header nav ul li:nth-child(2){	
+header nav ul li:nth-child(4){	
 	background-image:url("../imagens/tubarao.png");
 	background-color: #ffcc00;
 	background-repeat: no-repeat;
@@ -13,7 +13,7 @@ article{
 /*=========== inicio do corpo ===========*/
 article.conteudo{
 	height: 680px;
-	padding-top: 150px;
+	padding-top: 80px;
 	font-family: courier, serif;
 	color:#82B4BF;
 	line-height: 1.5;
@@ -24,21 +24,44 @@ article div.descricao {
 	margin: 0 auto;
 	width: 800px;
 	height: 530px;
+	padding: 60px;
+}
+div#bloco1{
+	display: block;
+	float:left;
+	width: 570px;
+	height: 270px;
 	background-image: url("../imagens/fundo.png");
 	background-size: 100% 100%;
-	padding: 60px;
+	margin: 20px;
+}
+div#bloco2{
+	display: block;
+	float:right;
+	width: 570px;
+	height: 270px;
+	background-image: url("../imagens/fundo.png");
+	background-size: 100% 100%;
+	margin: 20px;
+}
+div#bloco1 img{
+	float: left;
+	height:150px;
+    padding:5px 20px;
+}
+div#bloco2 img{
+	float: right;
+	height:150px;
+    padding:0 20px;
 }
 article div h2{	
 	text-align: center;
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: bold;
-	padding-bottom: 30px;
+	padding: 30px;
 }
-article div h2#segundo{
-	padding-top: 25px;
-}
-article div p{
-	text-indent: 40px;
+article div ul{
+	padding:0 20px;
 }
 article div ul li{
 	list-style: inside;
