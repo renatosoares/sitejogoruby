@@ -2,6 +2,9 @@
 * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
 * http://cssreset.com
 */
+
+/* Renato, essa parte ate a linha 20 nao eh so colocar *{} ? */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -22,6 +25,7 @@ font-size: 100%;
 font: inherit;
 vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -78,6 +82,7 @@ header h1 {
 	font-weight: lighter;
 	margin-left: 305px;
 	padding-top: 25px;
+	margin-bottom: 150px;
 	/*margin-top: 150px;*/
 	/*float: right;*/
 	/*margin-right: 80px;*/
@@ -102,7 +107,6 @@ header nav{
 }
 header nav ul {
 
-	
 }
 header nav ul li {
 	display: inline-block;
@@ -192,7 +196,7 @@ body{
 article {
 	width: auto;
 	height: 200px;
-	margin-top: 50px;
+	margin-top: 9%;
 	background-color: #82B4BF;
 }
 

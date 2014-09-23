@@ -1,0 +1,61 @@
+header nav ul li:nth-child(6){	
+	background-image:url("../imagens/tubarao.png");
+	background-color: #ffcc00;
+	background-repeat: no-repeat;
+	background-position: 35px 70px;	
+}
+header h1{	
+	margin-bottom: 80px;
+}
+article{
+	margin-top: 5%;
+}
+/*=========== inicio do corpo ===========*/
+article.conteudo{
+	height: 490px;
+	padding-top: 80px;
+	font-family: courier, serif;
+	color:#82B4BF;
+	line-height: 1.5;
+	font-size:17px;	
+	text-align: justify;
+}
+article div.descricao {
+	margin: 0 auto;
+	width: 690px;
+	height: 370px;
+	padding: 60px;
+}
+form{
+	display: block;
+	margin: 20px auto;
+	width: 510px;
+	height: 320px;
+	background-image: url("../imagens/fundo.png");
+	background-size: 100% 100%;
+	margin: 20px;
+	padding: 30px 40px;
+}
+fieldset legend{
+	text-align: center;
+	font-weight: bold;
+}
+fieldset p{
+	margin:15px;
+}
+fieldset p textarea{
+	height: 60px;
+	width: 480px;
+}
+fieldset#botao{
+	float: right;
+}
+fieldset#botao input{
+	border-radius: 10px;
+	padding: 7px;
+	background-color: #41a1b5;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+
+/*=========== fim do corpo ==============*/

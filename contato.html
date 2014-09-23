@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contato</title>
+    <meta content="Site sobre o jogo feito em ruby" name="description">
+    <meta content="jogo, submarino" name="keywords">
+    <link rel="stylesheet" type="text/css" href="css/geral.css">
+    <link rel="stylesheet" type="text/css" href="css/contato.css">   
+  </head>
+  <body>    
+      <header>
+          <h1>
+            <a href="index.html">
+              Sub_yellow
+              <img src="imagens/sub_yellow.png" />
+            </a>
+        </h1>
+        
+        <nav>
+          <ul>                                       
+            <li><a href="descricao.html"><span>_descrição</span></a></li>
+            <li><a href="regras.html"><span>_regras</span></a></li>
+            <li><a href="codigo.html"><span>_código fonte</span></a></li>
+            <li><a href="criadores.html"><span>_criadores</span></a></li>
+            <li><a href="enquete.html"><span>_enquete</span></a></li>
+            <li><a href="contato.html"><span>_contato</span></a></li>
+          </ul> 
+        </nav>
+
+      </header>
+      <article class="conteudo">
+        <div class="descricao">
+          <form action="recebedados.html" method="post">
+            <fieldset> 
+              <legend>Fale conosco!</legend>
+              <p>
+                <label for="nome">Nome:</label>
+                <br/>
+                <input type="text" name="nome" id="nome" required />
+              </p>
+              <p>
+                <label for="email">E-mail:</label>
+                <br/>
+                <input type="email" name="email" id="email" required />
+              </p>
+              <p>
+                <label for="msg">Dúvidas, sugestões, elogios ou reclamações:</label>
+                <br/>
+                <textarea id="msg" name="msg" required></textarea>
+              </p>
+            </fieldset>
+            <fieldset id="botao">
+              <input type="reset" value="Limpar" />
+              <input type="submit" value="Enviar" />
+            </fieldset>
+          </form>
+        </div>
+      </article>
+
+    <footer>
+      <p>
+        Desenvolvido por Júlia Martins & Renato Soares
+      </p>
+      <figure>
+        <img src="imagens/sub_inimigo.png" alt="submarino inimigo" />
+      </figure>
+
+    </footer>
+  </body>
+</html>
